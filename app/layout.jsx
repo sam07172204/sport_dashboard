@@ -1,0 +1,1 @@
+import './globals.css'; export const metadata={title:'515 Triathlon Coach'}; export default function RootLayout({children}){return <html lang='zh-Hant'><body>{children}</body></html>}
