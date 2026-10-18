@@ -1,0 +1,1 @@
+import {NextResponse} from 'next/server';export async function POST(request){const origin=new URL(request.url).origin;const r=NextResponse.redirect(new URL('/',origin),303);r.cookies.delete('strava_session');return r;}
